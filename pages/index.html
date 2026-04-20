@@ -1,1 +1,418 @@
+<!-- @webstudio/inception/1 -->
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
+<div class="bg-black text-white" style="font-family: 'Inter', sans-serif;">
+
+  <!-- NAV -->
+  <nav class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-5" style="background: linear-gradient(to bottom, rgba(0,0,0,0.92), transparent);">
+    <a href="#" class="text-xl tracking-[0.25em] uppercase font-light" style="font-family: 'Cormorant Garamond', serif; color: #c9a84c; letter-spacing: 0.3em;">SaxPerfect</a>
+    <div class="hidden md:flex items-center gap-10 text-xs tracking-widest uppercase text-gray-300">
+      <a href="#about" class="hover:text-amber-400 transition-colors duration-300">About</a>
+      <a href="#services" class="hover:text-amber-400 transition-colors duration-300">Services</a>
+      <a href="#media" class="hover:text-amber-400 transition-colors duration-300">Media</a>
+      <a href="#testimonials" class="hover:text-amber-400 transition-colors duration-300">Testimonials</a>
+      <a href="#contact" class="hover:text-amber-400 transition-colors duration-300">Contact</a>
+    </div>
+    <a href="https://saxperfect.setmore.com" target="_blank" class="hidden md:inline-flex items-center gap-2 text-xs tracking-widest uppercase px-6 py-3 border transition-all duration-300 hover:bg-amber-400 hover:border-amber-400 hover:text-black" style="border-color: #c9a84c; color: #c9a84c;">
+      Check Availability
+    </a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="relative min-h-screen flex items-end overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="https://preview.webstudio.ai/cgi/image/dev/2750bf674de8411b46b98909907d4923ec2aaa2d1223b1273fed5b4520510cf5.png?width=1344&height=768&format=auto" width="1344" height="768" alt="Live saxophone performance at luxury event" class="w-full h-full object-cover object-center" />
+      <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.35) 60%, rgba(0,0,0,0.18) 100%);"></div>
+      <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, transparent 55%);"></div>
+    </div>
+
+    <!-- Thin gold vertical accent line -->
+    <div class="absolute left-20 top-32 bottom-32 w-px hidden lg:block" style="background: linear-gradient(to bottom, transparent, #c9a84c, transparent);"></div>
+
+    <div class="relative z-10 w-full px-8 md:px-20 pb-24 pt-40">
+      <div class="max-w-2xl">
+        <p class="text-xs tracking-[0.4em] uppercase mb-6 font-light" style="color: #c9a84c;">Saxophone · Clarinet · Flute</p>
+        <h1 class="font-light leading-[1.08] mb-6" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 7vw, 6rem); color: #f5f0e8;">
+          Music That Defines<br/><em class="font-light" style="color: #c9a84c;">The Moment.</em>
+        </h1>
+        <p class="text-gray-300 text-base md:text-lg font-light leading-relaxed mb-10 max-w-lg">
+          Bespoke live performances crafted for weddings, corporate galas, and the world's finest venues. Precision, elegance, and artistry — exactly when it matters most.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="https://saxperfect.setmore.com" target="_blank" class="inline-flex items-center justify-center gap-3 px-10 py-4 text-sm tracking-widest uppercase font-medium transition-all duration-300 hover:opacity-90" style="background: linear-gradient(135deg, #c9a84c, #a8893c); color: #000;">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+            Book a Performance
+          </a>
+          <a href="#services" class="inline-flex items-center justify-center gap-3 px-10 py-4 text-sm tracking-widest uppercase font-light border transition-all duration-300 hover:border-amber-400 hover:text-amber-400" style="border-color: rgba(255,255,255,0.25); color: rgba(255,255,255,0.75);">
+            Explore Services
+          </a>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="absolute bottom-8 right-8 md:right-20 flex flex-col items-center gap-3 opacity-50">
+        <span class="text-xs tracking-widest uppercase text-gray-400" style="writing-mode: vertical-rl; transform: rotate(180deg);">Scroll</span>
+        <div class="w-px h-14 bg-gray-600"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREDIBILITY BAR -->
+  <section class="py-10 border-y" style="border-color: rgba(201,168,76,0.15); background: rgba(201,168,76,0.03);">
+    <div class="max-w-6xl mx-auto px-8 md:px-16">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex flex-wrap items-center justify-center md:justify-start gap-8 md:gap-16">
+          <div class="text-center">
+            <p class="text-3xl font-light" style="font-family: 'Cormorant Garamond', serif; color: #c9a84c;">500+</p>
+            <p class="text-xs tracking-widest uppercase text-gray-500 mt-1">Performances</p>
+          </div>
+          <div class="w-px h-10 bg-gray-800 hidden md:block"></div>
+          <div class="text-center">
+            <p class="text-3xl font-light" style="font-family: 'Cormorant Garamond', serif; color: #c9a84c;">15+</p>
+            <p class="text-xs tracking-widest uppercase text-gray-500 mt-1">Years of Experience</p>
+          </div>
+          <div class="w-px h-10 bg-gray-800 hidden md:block"></div>
+          <div class="text-center">
+            <p class="text-3xl font-light" style="font-family: 'Cormorant Garamond', serif; color: #c9a84c;">3</p>
+            <p class="text-xs tracking-widest uppercase text-gray-500 mt-1">Instruments Mastered</p>
+          </div>
+          <div class="w-px h-10 bg-gray-800 hidden md:block"></div>
+          <div class="text-center">
+            <p class="text-3xl font-light" style="font-family: 'Cormorant Garamond', serif; color: #c9a84c;">100%</p>
+            <p class="text-xs tracking-widest uppercase text-gray-500 mt-1">5-Star Rated</p>
+          </div>
+        </div>
+        <a href="https://saxperfect.setmore.com" target="_blank" class="text-xs tracking-widest uppercase transition-colors duration-300 hover:text-amber-400 whitespace-nowrap" style="color: #c9a84c;">
+          → View Availability
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-28 md:py-36">
+    <div class="max-w-6xl mx-auto px-8 md:px-16">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+        <div class="relative">
+          <div class="relative z-10 overflow-hidden">
+            <img src="https://preview.webstudio.ai/cgi/image/dev/d36ecdc6c3f1a671446a5e2de4cc20445dc7ca9402f98a127fe878c1ce64bc49.png?width=896&height=1152&format=auto" width="896" height="1152" alt="Close-up of saxophone at luxury event" class="w-full object-cover" style="max-height: 620px; object-position: center;" />
+            <div class="absolute inset-0" style="background: linear-gradient(to bottom, transparent 60%, rgba(0,0,0,0.6));"></div>
+          </div>
+          <!-- Decorative gold border offset -->
+          <div class="absolute -bottom-4 -right-4 w-full h-full border pointer-events-none" style="border-color: rgba(201,168,76,0.2);"></div>
+        </div>
+
+        <div>
+          <p class="text-xs tracking-[0.4em] uppercase mb-4 font-light" style="color: #c9a84c;">The Artist</p>
+          <h2 class="font-light leading-tight mb-8" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 4vw, 3.5rem); color: #f5f0e8;">
+            Artistry Forged<br/>in Every Note.
+          </h2>
+          <div class="w-12 h-px mb-8" style="background: #c9a84c;"></div>
+          <p class="text-gray-400 font-light leading-relaxed mb-6">
+            With over 15 years of professional performance experience, I bring a rare combination of classical training, jazz fluency, and an instinctive understanding of what a room needs to feel extraordinary.
+          </p>
+          <p class="text-gray-400 font-light leading-relaxed mb-6">
+            From a quiet ceremony to a grand corporate gala, every performance is shaped around your event — its mood, its guests, and the story you want to tell. My repertoire spans classical to contemporary, jazz to cinematic, always delivered with precision and presence.
+          </p>
+          <p class="text-gray-400 font-light leading-relaxed mb-10">
+            Trusted by wedding planners, Fortune 500 event teams, and the most prestigious venues — because reliability is part of the performance.
+          </p>
+          <a href="https://saxperfect.setmore.com" target="_blank" class="inline-flex items-center gap-3 text-sm tracking-widest uppercase font-medium transition-all duration-300 hover:gap-5" style="color: #c9a84c;">
+            Reserve Your Date <span>→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-28 md:py-36" style="background: linear-gradient(to bottom, #0a0a0a, #111);">
+    <div class="max-w-6xl mx-auto px-8 md:px-16">
+      <div class="text-center mb-20">
+        <p class="text-xs tracking-[0.4em] uppercase mb-4 font-light" style="color: #c9a84c;">What I Offer</p>
+        <h2 class="font-light" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 4vw, 3.5rem); color: #f5f0e8;">Tailored for Every Occasion.</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-px" style="background: rgba(201,168,76,0.1);">
+
+        <!-- Weddings -->
+        <div class="p-10 relative overflow-hidden group transition-all duration-500 hover:bg-white/3" style="background: #0d0d0d;">
+          <div class="absolute top-0 left-0 w-full h-px transition-all duration-500 group-hover:opacity-100 opacity-50" style="background: linear-gradient(to right, transparent, #c9a84c, transparent);"></div>
+          <div class="mb-8 overflow-hidden" style="height: 220px;">
+            <img src="https://preview.webstudio.ai/cgi/image/dev/57e698eb730b9b65aa7927d43173ecba3d83f9e3df25755bea84f3db79c9b81c.png?width=1024&height=768&format=auto" width="1024" height="768" alt="Clarinet at luxury wedding" class="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" />
+          </div>
+          <p class="text-xs tracking-[0.4em] uppercase mb-3 font-light" style="color: #c9a84c;">01</p>
+          <h3 class="text-2xl font-light mb-4" style="font-family: 'Cormorant Garamond', serif; color: #f5f0e8;">Weddings</h3>
+          <p class="text-gray-500 text-sm font-light leading-relaxed mb-6">From the ceremony processional to the cocktail hour and reception, live music transforms your wedding into an unforgettable experience. Every arrangement reflects your vision.</p>
+          <ul class="space-y-2 text-xs text-gray-600 tracking-wide">
+            <li class="flex items-center gap-2"><span style="color: #c9a84c;">—</span> Ceremony &amp; Processional</li>
+            <li class="flex items-center gap-2"><span style="color: #c9a84c;">—</span> Cocktail Hour</li>
+            <li class="flex items-center gap-2"><span style="color: #c9a84c;">—</span> Reception &amp; Dinner</li>
+          </ul>
+        </div>
+
+        <!-- Corporate -->
+        <div class="p-10 relative overflow-hidden group transition-all duration-500 hover:bg-white/3" style="background: #0d0d0d;">
+          <div class="absolute top-0 left-0 w-full h-px transition-all duration-500 group-hover:opacity-100 opacity-50" style="background: linear-gradient(to right, transparent, #c9a84c, transparent);"></div>
+          <div class="mb-8 overflow-hidden" style="height: 220px;">
+            <img src="https://preview.webstudio.ai/cgi/image/dev/dd77008e8eb9332ac2b8bdb80666d0a4daef69fc2ac937ebe5f0b8637853ed08.png?width=1024&height=768&format=auto" width="1024" height="768" alt="Flute performance at corporate gala" class="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" />
+          </div>
+          <p class="text-xs tracking-[0.4em] uppercase mb-3 font-light" style="color: #c9a84c;">02</p>
+          <h3 class="text-2xl font-light mb-4" style="font-family: 'Cormorant Garamond', serif; color: #f5f0e8;">Corporate Events</h3>
+          <p class="text-gray-500 text-sm font-light leading-relaxed mb-6">Elevate brand experiences, product launches, and executive galas with live music that speaks to sophistication. Seamlessly integrated, never intrusive.</p>
+          <ul class="space-y-2 text-xs text-gray-600 tracking-wide">
+            <li class="flex items-center gap-2"><span style="color: #c9a84c;">—</span> Galas &amp; Award Evenings</li>
+            <li class="flex items-center gap-2"><span style="color: #c9a84c;">—</span> Product Launches</li>
+            <li class="flex items-center gap-2"><span style="color: #c9a84c;">—</span> Executive &amp; VIP Dinners</li>
+          </ul>
+        </div>
+
+        <!-- Private & Venues -->
+        <div class="p-10 relative overflow-hidden group transition-all duration-500 hover:bg-white/3" style="background: #0d0d0d;">
+          <div class="absolute top-0 left-0 w-full h-px transition-all duration-500 group-hover:opacity-100 opacity-50" style="background: linear-gradient(to right, transparent, #c9a84c, transparent);"></div>
+          <div class="mb-8 overflow-hidden" style="height: 220px;">
+            <img src="https://preview.webstudio.ai/cgi/image/dev/41b5c737be0a98fd61fe5e937d527f9368533f2307b2eecc029ad514410ead25.png?width=1024&height=768&format=auto" width="1024" height="768" alt="Saxophonist at private luxury event" class="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" />
+          </div>
+          <p class="text-xs tracking-[0.4em] uppercase mb-3 font-light" style="color: #c9a84c;">03</p>
+          <h3 class="text-2xl font-light mb-4" style="font-family: 'Cormorant Garamond', serif; color: #f5f0e8;">Private &amp; Venues</h3>
+          <p class="text-gray-500 text-sm font-light leading-relaxed mb-6">Private celebrations, residencies, and venue partnerships. Whether an intimate dinner or an exclusive rooftop event, the performance is always bespoke.</p>
+          <ul class="space-y-2 text-xs text-gray-600 tracking-wide">
+            <li class="flex items-center gap-2"><span style="color: #c9a84c;">—</span> Private Celebrations</li>
+            <li class="flex items-center gap-2"><span style="color: #c9a84c;">—</span> Venue Residencies</li>
+            <li class="flex items-center gap-2"><span style="color: #c9a84c;">—</span> Exclusive Parties</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-center mt-14">
+        <a href="https://saxperfect.setmore.com" target="_blank" class="inline-flex items-center gap-3 px-12 py-4 text-sm tracking-widest uppercase font-medium transition-all duration-300 hover:opacity-85" style="background: linear-gradient(135deg, #c9a84c, #a8893c); color: #000;">
+          Check Availability
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="py-28 md:py-36 relative overflow-hidden" style="background: #080808;">
+    <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse at 80% 50%, rgba(139,0,0,0.06), transparent 65%);"></div>
+    <div class="max-w-6xl mx-auto px-8 md:px-16 relative z-10">
+      <div class="text-center mb-20">
+        <p class="text-xs tracking-[0.4em] uppercase mb-4 font-light" style="color: #c9a84c;">Client Testimonials</p>
+        <h2 class="font-light" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 4vw, 3.5rem); color: #f5f0e8;">Trusted by Those<br/>Who Demand Excellence.</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- T1 -->
+        <div class="p-8 relative" style="border: 1px solid rgba(201,168,76,0.12); background: rgba(255,255,255,0.015);">
+          <div class="text-5xl font-light mb-6 leading-none" style="color: #c9a84c; font-family: 'Cormorant Garamond', serif;">&ldquo;</div>
+          <p class="text-gray-400 font-light leading-relaxed text-sm mb-8">The performance was everything we dreamed of and more. Our guests are still talking about the saxophone during cocktail hour. It elevated our entire wedding atmosphere. Absolutely impeccable.</p>
+          <div class="border-t pt-6" style="border-color: rgba(201,168,76,0.12);">
+            <p class="text-white text-sm font-medium tracking-wide">Sarah & James Whitmore</p>
+            <p class="text-gray-600 text-xs tracking-widest uppercase mt-1">Private Wedding &mdash; The Biltmore Estate</p>
+          </div>
+        </div>
+
+        <!-- T2 -->
+        <div class="p-8 relative" style="border: 1px solid rgba(201,168,76,0.12); background: rgba(255,255,255,0.015);">
+          <div class="text-5xl font-light mb-6 leading-none" style="color: #c9a84c; font-family: 'Cormorant Garamond', serif;">&ldquo;</div>
+          <p class="text-gray-400 font-light leading-relaxed text-sm mb-8">We've worked with many performers for our executive events, but SaxPerfect stands apart. The professionalism, punctuality, and quality of the music perfectly matched the tone of our annual gala. A true asset.</p>
+          <div class="border-t pt-6" style="border-color: rgba(201,168,76,0.12);">
+            <p class="text-white text-sm font-medium tracking-wide">Marcus Chen</p>
+            <p class="text-gray-600 text-xs tracking-widest uppercase mt-1">Head of Events &mdash; Apex Group International</p>
+          </div>
+        </div>
+
+        <!-- T3 -->
+        <div class="p-8 relative" style="border: 1px solid rgba(201,168,76,0.12); background: rgba(255,255,255,0.015);">
+          <div class="text-5xl font-light mb-6 leading-none" style="color: #c9a84c; font-family: 'Cormorant Garamond', serif;">&ldquo;</div>
+          <p class="text-gray-400 font-light leading-relaxed text-sm mb-8">We book live music regularly for our venue, and SaxPerfect is our first call every time. The versatility across saxophone, clarinet, and flute gives us incredible flexibility. Guests consistently rate evenings with live music highest.</p>
+          <div class="border-t pt-6" style="border-color: rgba(201,168,76,0.12);">
+            <p class="text-white text-sm font-medium tracking-wide">Isabelle Laurent</p>
+            <p class="text-gray-600 text-xs tracking-widest uppercase mt-1">Events Director &mdash; Grand Pavilion Hotel</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEDIA GALLERY -->
+  <section id="media" class="py-28 md:py-36" style="background: #0a0a0a;">
+    <div class="max-w-6xl mx-auto px-8 md:px-16">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+        <div>
+          <p class="text-xs tracking-[0.4em] uppercase mb-4 font-light" style="color: #c9a84c;">Gallery</p>
+          <h2 class="font-light" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 4vw, 3.5rem); color: #f5f0e8;">The Performance.<br/>In Every Frame.</h2>
+        </div>
+        <a href="https://saxperfect.setmore.com" target="_blank" class="text-sm tracking-widest uppercase transition-colors duration-300 hover:text-amber-400 whitespace-nowrap pb-2" style="color: #c9a84c; border-bottom: 1px solid rgba(201,168,76,0.3);">
+          Book Your Event &rarr;
+        </a>
+      </div>
+
+      <!-- Asymmetric grid -->
+      <div class="grid grid-cols-12 grid-rows-2 gap-3" style="height: 520px;">
+        <div class="col-span-7 row-span-2 overflow-hidden relative group">
+          <img src="https://preview.webstudio.ai/cgi/image/dev/2750bf674de8411b46b98909907d4923ec2aaa2d1223b1273fed5b4520510cf5.png?width=1344&height=768&format=auto" width="1344" height="768" alt="Saxophonist performing live" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-103" />
+          <div class="absolute inset-0 transition-opacity duration-300 opacity-0 group-hover:opacity-100" style="background: rgba(201,168,76,0.06);"></div>
+        </div>
+        <div class="col-span-5 row-span-1 overflow-hidden relative group">
+          <img src="https://preview.webstudio.ai/cgi/image/dev/57e698eb730b9b65aa7927d43173ecba3d83f9e3df25755bea84f3db79c9b81c.png?width=1024&height=768&format=auto" width="1024" height="768" alt="Wedding performance" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-103" />
+          <div class="absolute inset-0 transition-opacity duration-300 opacity-0 group-hover:opacity-100" style="background: rgba(201,168,76,0.06);"></div>
+        </div>
+        <div class="col-span-5 row-span-1 overflow-hidden relative group">
+          <img src="https://preview.webstudio.ai/cgi/image/dev/edb99d0d22b62d83b82504a693d0da86067ba9206f64ea89cb64fd2205759475.png?width=1024&height=768&format=auto" width="1024" height="768" alt="Wind instruments collection" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-103" />
+          <div class="absolute inset-0 transition-opacity duration-300 opacity-0 group-hover:opacity-100" style="background: rgba(201,168,76,0.06);"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MIDDLE CTA BANNER -->
+  <section class="relative py-28 overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="https://preview.webstudio.ai/cgi/image/dev/41b5c737be0a98fd61fe5e937d527f9368533f2307b2eecc029ad514410ead25.png?width=1024&height=768&format=auto" width="1024" height="768" alt="Private luxury event performance" class="w-full h-full object-cover opacity-25" />
+      <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(0,0,0,0.92) 0%, rgba(20,10,0,0.88) 100%);"></div>
+    </div>
+    <div class="relative z-10 max-w-4xl mx-auto px-8 md:px-16 text-center">
+      <p class="text-xs tracking-[0.4em] uppercase mb-6 font-light" style="color: #c9a84c;">Limited Dates Available</p>
+      <h2 class="font-light mb-6 leading-tight" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 5vw, 4.5rem); color: #f5f0e8;">Your Event Deserves<br/>More Than Background Music.</h2>
+      <p class="text-gray-400 font-light leading-relaxed mb-10 max-w-xl mx-auto">Every performance is unique, fully customized, and confirmed only when you know it's perfect. Dates fill quickly &mdash; reserve yours now.</p>
+      <a href="https://saxperfect.setmore.com" target="_blank" class="inline-flex items-center gap-3 px-14 py-5 text-sm tracking-widest uppercase font-medium transition-all duration-300 hover:opacity-90" style="background: linear-gradient(135deg, #c9a84c, #a8893c); color: #000;">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        Check Availability Now
+      </a>
+    </div>
+  </section>
+
+  <!-- INSTRUMENTS FEATURE -->
+  <section class="py-28 md:py-36" style="background: #080808;">
+    <div class="max-w-6xl mx-auto px-8 md:px-16">
+      <div class="text-center mb-20">
+        <p class="text-xs tracking-[0.4em] uppercase mb-4 font-light" style="color: #c9a84c;">Versatility</p>
+        <h2 class="font-light" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 4vw, 3.5rem); color: #f5f0e8;">One Artist. Three Voices.</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div class="text-center group">
+          <div class="w-20 h-20 mx-auto mb-6 flex items-center justify-center border rounded-full transition-all duration-300 group-hover:border-amber-400/50" style="border-color: rgba(201,168,76,0.2);">
+            <svg class="w-8 h-8" fill="none" stroke="#c9a84c" stroke-width="1.2" viewBox="0 0 24 24"><path d="M9 19V6l12-3v13" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="19" r="3" stroke-linecap="round"/><circle cx="18" cy="16" r="3" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="text-xl font-light mb-3" style="font-family: 'Cormorant Garamond', serif; color: #f5f0e8;">Saxophone</h3>
+          <p class="text-gray-500 text-sm font-light leading-relaxed">Soulful, warm, and endlessly expressive. The saxophone commands any room &mdash; from intimate dinner ambiance to a commanding cocktail hour presence.</p>
+        </div>
+        <div class="text-center group">
+          <div class="w-20 h-20 mx-auto mb-6 flex items-center justify-center border rounded-full transition-all duration-300 group-hover:border-amber-400/50" style="border-color: rgba(201,168,76,0.2);">
+            <svg class="w-8 h-8" fill="none" stroke="#c9a84c" stroke-width="1.2" viewBox="0 0 24 24"><path d="M12 3v18M6 6l6-3 6 3M6 18l6 3 6-3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="text-xl font-light mb-3" style="font-family: 'Cormorant Garamond', serif; color: #f5f0e8;">Clarinet</h3>
+          <p class="text-gray-500 text-sm font-light leading-relaxed">Elegant and versatile, the clarinet bridges classical ceremony music and contemporary jazz with extraordinary range and tonal beauty.</p>
+        </div>
+        <div class="text-center group">
+          <div class="w-20 h-20 mx-auto mb-6 flex items-center justify-center border rounded-full transition-all duration-300 group-hover:border-amber-400/50" style="border-color: rgba(201,168,76,0.2);">
+            <svg class="w-8 h-8" fill="none" stroke="#c9a84c" stroke-width="1.2" viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="text-xl font-light mb-3" style="font-family: 'Cormorant Garamond', serif; color: #f5f0e8;">Flute</h3>
+          <p class="text-gray-500 text-sm font-light leading-relaxed">Ethereal and luminous, the flute brings a refined, crystalline quality to ceremonies and fine dining events that no other instrument can replicate.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-28 md:py-36 relative overflow-hidden" style="background: linear-gradient(to bottom, #0a0a0a, #000);">
+    <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse at 20% 50%, rgba(139,0,0,0.05), transparent 60%);"></div>
+    <div class="max-w-6xl mx-auto px-8 md:px-16 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
+        <div>
+          <p class="text-xs tracking-[0.4em] uppercase mb-4 font-light" style="color: #c9a84c;">Get in Touch</p>
+          <h2 class="font-light mb-6 leading-tight" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem, 4vw, 3.5rem); color: #f5f0e8;">Let's Create Something Remarkable.</h2>
+          <div class="w-12 h-px mb-8" style="background: #c9a84c;"></div>
+          <p class="text-gray-400 font-light leading-relaxed mb-10">The fastest way to secure your date is through the booking calendar. For specific inquiries, custom requests, or to discuss your event in detail, reach out directly.</p>
+
+          <div class="space-y-6 mb-12">
+            <div class="flex items-center gap-4">
+              <div class="w-10 h-10 flex items-center justify-center shrink-0" style="border: 1px solid rgba(201,168,76,0.2);">
+                <svg class="w-4 h-4" fill="none" stroke="#c9a84c" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div>
+                <p class="text-xs tracking-widest uppercase text-gray-600 mb-1">Email</p>
+                <a href="mailto:info@saxperfect.com" class="text-gray-300 font-light hover:text-amber-400 transition-colors">info@saxperfect.com</a>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="w-10 h-10 flex items-center justify-center shrink-0" style="border: 1px solid rgba(201,168,76,0.2);">
+                <svg class="w-4 h-4" fill="none" stroke="#c9a84c" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+              </div>
+              <div>
+                <p class="text-xs tracking-widest uppercase text-gray-600 mb-1">Book Online</p>
+                <a href="https://saxperfect.setmore.com" target="_blank" class="text-gray-300 font-light hover:text-amber-400 transition-colors">saxperfect.setmore.com</a>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://saxperfect.setmore.com" target="_blank" class="inline-flex items-center gap-3 px-12 py-4 text-sm tracking-widest uppercase font-medium transition-all duration-300 hover:opacity-90" style="background: linear-gradient(135deg, #c9a84c, #a8893c); color: #000;">
+            Book a Performance
+          </a>
+        </div>
+
+        <div class="relative">
+          <div class="overflow-hidden">
+            <img src="https://preview.webstudio.ai/cgi/image/dev/dd77008e8eb9332ac2b8bdb80666d0a4daef69fc2ac937ebe5f0b8637853ed08.png?width=1024&height=768&format=auto" width="1024" height="768" alt="Flute performance at corporate gala" class="w-full object-cover" style="max-height: 480px; object-position: center;" />
+            <div class="absolute inset-0" style="background: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.7));"></div>
+          </div>
+          <div class="absolute -top-4 -left-4 w-full h-full border pointer-events-none" style="border-color: rgba(201,168,76,0.1);"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-12 border-t" style="border-color: rgba(201,168,76,0.1); background: #000;">
+    <div class="max-w-6xl mx-auto px-8 md:px-16">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="text-center md:text-left">
+          <p class="text-xl tracking-[0.3em] uppercase font-light mb-2" style="font-family: 'Cormorant Garamond', serif; color: #c9a84c;">SaxPerfect</p>
+          <p class="text-xs tracking-widest text-gray-600 uppercase">Professional Music for Luxury Events</p>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-8 text-xs tracking-widest uppercase text-gray-600">
+          <a href="#about" class="hover:text-amber-400 transition-colors">About</a>
+          <a href="#services" class="hover:text-amber-400 transition-colors">Services</a>
+          <a href="#media" class="hover:text-amber-400 transition-colors">Media</a>
+          <a href="#testimonials" class="hover:text-amber-400 transition-colors">Testimonials</a>
+          <a href="#contact" class="hover:text-amber-400 transition-colors">Contact</a>
+        </div>
+        <a href="https://saxperfect.setmore.com" target="_blank" class="text-xs tracking-widest uppercase px-6 py-3 border transition-all duration-300 hover:bg-amber-400 hover:border-amber-400 hover:text-black" style="border-color: rgba(201,168,76,0.3); color: #c9a84c;">
+          Book Now
+        </a>
+      </div>
+      <div class="mt-10 pt-6 border-t text-center" style="border-color: rgba(255,255,255,0.05);">
+        <p class="text-xs text-gray-700 tracking-wide">
+          &copy; 2025 SaxPerfect. All rights reserved. Crafted for excellence.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  // Smooth scrolling for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  // Subtle scroll-based nav opacity
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 80) {
+      nav.style.background = 'rgba(0,0,0,0.97)';
+    } else {
+      nav.style.background = 'linear-gradient(to bottom, rgba(0,0,0,0.92), transparent)';
+    }
+  });
+</script>
